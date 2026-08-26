@@ -25,11 +25,35 @@
             </div>
         </div>
 
-        <div id="cart-section">
-            <h2 id="cart-title"><i class="fa fa-shopping-cart"></i> Your Cart</h2>
-            <div id="empty-cart">
-                <h3>Your cart is empty</h3>
-                <a href="index.html">Shop Now</a>
+        <div id="cart-wrapper">
+            <div id="cart-section">
+                <h2 id="cart-title"><i class="fa fa-shopping-cart"></i> Your Cart</h2>
+                <div id="empty-cart">
+                    <div id="empty-cart-icon"><i class="fa fa-shopping-cart"></i></div>
+                    <h3>Your cart is empty</h3>
+                    <p>Looks like you haven't added anything yet.</p>
+                    <a href="index.html"><i class="fa fa-arrow-left"></i> Browse Products</a>
+                </div>
+            </div>
+
+            <div id="order-summary">
+                <h2><i class="fa fa-receipt"></i> Order Summary</h2>
+                <div id="summary-items"></div>
+                <div id="summary-divider"></div>
+                <div id="summary-row">
+                    <span>Subtotal</span>
+                    <span id="summary-subtotal">$0</span>
+                </div>
+                <div id="summary-row-shipping">
+                    <span>Shipping</span>
+                    <span class="free-ship">FREE</span>
+                </div>
+                <div id="summary-total-row">
+                    <span>Total</span>
+                    <span id="summary-total">$0</span>
+                </div>
+                <button id="checkout-btn"><i class="fa fa-lock"></i> Proceed to Checkout</button>
+                <a href="index.html" id="continue-shopping"><i class="fa fa-arrow-left"></i> Continue Shopping</a>
             </div>
         </div>
 
